@@ -1,0 +1,4 @@
+src/*.js
+src/*.vue
+src/views/*.vue
+src/components/*.vue

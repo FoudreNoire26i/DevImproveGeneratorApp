@@ -1,0 +1,205 @@
+[
+  {
+    "nom": "ID",
+    "type": "uuid.UUID",
+    "convention": "",
+    "beforeConvention": "",
+    "db": "id"
+  },
+  {
+    "nom": "NombateauTitle",
+    "type": "nulls.String",
+    "convention": "_title",
+    "beforeConvention": "nombateau_",
+    "db": "nombateau_title"
+  },
+  {
+    "nom": "ModeleSubtitle",
+    "type": "nulls.String",
+    "convention": "_subtitle",
+    "beforeConvention": "modele_",
+    "db": "modele_subtitle"
+  },
+  {
+    "nom": "LocalisationportGeoLat",
+    "type": "nulls.Float64",
+    "convention": "_geo_lat",
+    "beforeConvention": "localisationport_geo_",
+    "db": "localisationport_geo_lat"
+  },
+  {
+    "nom": "LocalisationportGeoLong",
+    "type": "nulls.Float64",
+    "convention": "_geo_long",
+    "beforeConvention": "localisationport_geo_",
+    "db": "localisationport_geo_long"
+  },
+  {
+    "nom": "Spare1Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare1_",
+    "db": "spare1_str"
+  },
+  {
+    "nom": "Spare2Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare2_",
+    "db": "spare2_str"
+  },
+  {
+    "nom": "Spare3Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare3_",
+    "db": "spare3_str"
+  },
+  {
+    "nom": "Spare4Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare4_",
+    "db": "spare4_str"
+  },
+  {
+    "nom": "Spare5Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare5_",
+    "db": "spare5_str"
+  },
+  {
+    "nom": "Spare6Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare6_",
+    "db": "spare6_str"
+  },
+  {
+    "nom": "Spare7Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare7_",
+    "db": "spare7_str"
+  },
+  {
+    "nom": "Spare8Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare8_",
+    "db": "spare8_str"
+  },
+  {
+    "nom": "Spare9Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare9_",
+    "db": "spare9_str"
+  },
+  {
+    "nom": "Spare10Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare10_",
+    "db": "spare10_str"
+  },
+  {
+    "nom": "Spare11Int",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "spare11_",
+    "db": "spare11_int"
+  },
+  {
+    "nom": "Spare12Int",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "spare12_",
+    "db": "spare12_int"
+  },
+  {
+    "nom": "Spare13Int",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "spare13_",
+    "db": "spare13_int"
+  },
+  {
+    "nom": "Spare14Int",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "spare14_",
+    "db": "spare14_int"
+  },
+  {
+    "nom": "Spare15Int",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "spare15_",
+    "db": "spare15_int"
+  },
+  {
+    "nom": "Spare16Int",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "spare16_",
+    "db": "spare16_int"
+  },
+  {
+    "nom": "Spare17ID",
+    "type": "nulls.UUID",
+    "convention": "_id",
+    "beforeConvention": "spare17_",
+    "db": "spare17_id"
+  },
+  {
+    "nom": "Spare18ID",
+    "type": "nulls.UUID",
+    "convention": "_id",
+    "beforeConvention": "spare18_",
+    "db": "spare18_id"
+  },
+  {
+    "nom": "Spare19ID",
+    "type": "nulls.UUID",
+    "convention": "_id",
+    "beforeConvention": "spare19_",
+    "db": "spare19_id"
+  },
+  {
+    "nom": "Spare20ID",
+    "type": "nulls.UUID",
+    "convention": "_id",
+    "beforeConvention": "spare20_",
+    "db": "spare20_id"
+  },
+  {
+    "nom": "Spare21ID",
+    "type": "nulls.UUID",
+    "convention": "_id",
+    "beforeConvention": "spare21_",
+    "db": "spare21_id"
+  },
+  {
+    "nom": "Spare22ID",
+    "type": "nulls.UUID",
+    "convention": "_id",
+    "beforeConvention": "spare22_",
+    "db": "spare22_id"
+  },
+  {
+    "nom": "CreatedAt",
+    "type": "time.Time",
+    "convention": "_at",
+    "beforeConvention": "created_",
+    "db": "created_at"
+  },
+  {
+    "nom": "UpdatedAt",
+    "type": "time.Time",
+    "convention": "_at",
+    "beforeConvention": "updated_",
+    "db": "updated_at"
+  }
+]

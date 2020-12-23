@@ -1,0 +1,250 @@
+[
+  {
+    "method": "GET",
+    "path": "/",
+    "aliases": "",
+    "name": "rootPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.HomeHandler",
+    "ressourceName": "/"
+  },
+  {
+    "method": "GET",
+    "path": "/bateauids/",
+    "aliases": "",
+    "name": "bateauidsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.List",
+    "ressourceName": "bateauids"
+  },
+  {
+    "method": "POST",
+    "path": "/bateauids/",
+    "aliases": "",
+    "name": "bateauidsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.Create",
+    "ressourceName": "bateauids"
+  },
+  {
+    "method": "DELETE",
+    "path": "/bateauids/{bateauid_id}/",
+    "aliases": "",
+    "name": "bateauidPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.Destroy",
+    "ressourceName": "bateauids"
+  },
+  {
+    "method": "GET",
+    "path": "/bateauids/{bateauid_id}/",
+    "aliases": "",
+    "name": "bateauidPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.Show",
+    "ressourceName": "bateauids"
+  },
+  {
+    "method": "PUT",
+    "path": "/bateauids/{bateauid_id}/",
+    "aliases": "",
+    "name": "bateauidPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.Update",
+    "ressourceName": "bateauids"
+  },
+  {
+    "method": "POST",
+    "path": "/chats/",
+    "aliases": "",
+    "name": "chatsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.Create",
+    "ressourceName": "chats"
+  },
+  {
+    "method": "GET",
+    "path": "/chats/",
+    "aliases": "",
+    "name": "chatsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.List",
+    "ressourceName": "chats"
+  },
+  {
+    "method": "GET",
+    "path": "/chats/{chat_id}/",
+    "aliases": "",
+    "name": "chatPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.Show",
+    "ressourceName": "chats"
+  },
+  {
+    "method": "PUT",
+    "path": "/chats/{chat_id}/",
+    "aliases": "",
+    "name": "chatPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.Update",
+    "ressourceName": "chats"
+  },
+  {
+    "method": "DELETE",
+    "path": "/chats/{chat_id}/",
+    "aliases": "",
+    "name": "chatPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.Destroy",
+    "ressourceName": "chats"
+  },
+  {
+    "method": "GET",
+    "path": "/comments/",
+    "aliases": "",
+    "name": "commentsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.List",
+    "ressourceName": "comments"
+  },
+  {
+    "method": "POST",
+    "path": "/comments/",
+    "aliases": "",
+    "name": "commentsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.Create",
+    "ressourceName": "comments"
+  },
+  {
+    "method": "DELETE",
+    "path": "/comments/{comment_id}/",
+    "aliases": "",
+    "name": "commentPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.Destroy",
+    "ressourceName": "comments"
+  },
+  {
+    "method": "GET",
+    "path": "/comments/{comment_id}/",
+    "aliases": "",
+    "name": "commentPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.Show",
+    "ressourceName": "comments"
+  },
+  {
+    "method": "PUT",
+    "path": "/comments/{comment_id}/",
+    "aliases": "",
+    "name": "commentPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.Update",
+    "ressourceName": "comments"
+  },
+  {
+    "method": "GET",
+    "path": "/interviews/",
+    "aliases": "",
+    "name": "interviewsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.List",
+    "ressourceName": "interviews"
+  },
+  {
+    "method": "POST",
+    "path": "/interviews/",
+    "aliases": "",
+    "name": "interviewsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.Create",
+    "ressourceName": "interviews"
+  },
+  {
+    "method": "GET",
+    "path": "/interviews/{interview_id}/",
+    "aliases": "",
+    "name": "interviewPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.Show",
+    "ressourceName": "interviews"
+  },
+  {
+    "method": "PUT",
+    "path": "/interviews/{interview_id}/",
+    "aliases": "",
+    "name": "interviewPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.Update",
+    "ressourceName": "interviews"
+  },
+  {
+    "method": "DELETE",
+    "path": "/interviews/{interview_id}/",
+    "aliases": "",
+    "name": "interviewPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.Destroy",
+    "ressourceName": "interviews"
+  },
+  {
+    "method": "POST",
+    "path": "/notifications/",
+    "aliases": "",
+    "name": "notificationsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.Create",
+    "ressourceName": "notifications"
+  },
+  {
+    "method": "GET",
+    "path": "/notifications/",
+    "aliases": "",
+    "name": "notificationsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.List",
+    "ressourceName": "notifications"
+  },
+  {
+    "method": "GET",
+    "path": "/notifications/{notification_id}/",
+    "aliases": "",
+    "name": "notificationPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.Show",
+    "ressourceName": "notifications"
+  },
+  {
+    "method": "DELETE",
+    "path": "/notifications/{notification_id}/",
+    "aliases": "",
+    "name": "notificationPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.Destroy",
+    "ressourceName": "notifications"
+  },
+  {
+    "method": "PUT",
+    "path": "/notifications/{notification_id}/",
+    "aliases": "",
+    "name": "notificationPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.Update",
+    "ressourceName": "notifications"
+  },
+  {
+    "method": "GET",
+    "path": "/placeportids/",
+    "aliases": "",
+    "name": "placeportidsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.List",
+    "ressourceName": "placeportids"
+  },
+  {
+    "method": "POST",
+    "path": "/placeportids/",
+    "aliases": "",
+    "name": "placeportidsPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.Create",
+    "ressourceName": "placeportids"
+  },
+  {
+    "method": "GET",
+    "path": "/placeportids/{placeportid_id}/",
+    "aliases": "",
+    "name": "placeportidPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.Show",
+    "ressourceName": "placeportids"
+  },
+  {
+    "method": "PUT",
+    "path": "/placeportids/{placeportid_id}/",
+    "aliases": "",
+    "name": "placeportidPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.Update",
+    "ressourceName": "placeportids"
+  },
+  {
+    "method": "DELETE",
+    "path": "/placeportids/{placeportid_id}/",
+    "aliases": "",
+    "name": "placeportidPath",
+    "handler": "generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.Destroy",
+    "ressourceName": "placeportids"
+  }
+]

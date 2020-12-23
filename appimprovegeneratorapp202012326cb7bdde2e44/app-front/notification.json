@@ -1,0 +1,86 @@
+[
+  {
+    "nom": "ID",
+    "type": "uuid.UUID",
+    "convention": "",
+    "beforeConvention": "",
+    "db": "id"
+  },
+  {
+    "nom": "TextStr",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "text_",
+    "db": "text_str"
+  },
+  {
+    "nom": "UrlStr",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "url_",
+    "db": "url_str"
+  },
+  {
+    "nom": "ActivatedInt",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "activated_",
+    "db": "activated_int"
+  },
+  {
+    "nom": "StartInt",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "start_",
+    "db": "start_int"
+  },
+  {
+    "nom": "RepeatInt",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "repeat_",
+    "db": "repeat_int"
+  },
+  {
+    "nom": "IDInt",
+    "type": "nulls.Int",
+    "convention": "_int",
+    "beforeConvention": "id_",
+    "db": "id_int"
+  },
+  {
+    "nom": "DateDate",
+    "type": "nulls.Time",
+    "convention": "_date",
+    "beforeConvention": "date_",
+    "db": "date_date"
+  },
+  {
+    "nom": "Spare1Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare1_",
+    "db": "spare1_str"
+  },
+  {
+    "nom": "Spare2Str",
+    "type": "nulls.String",
+    "convention": "_str",
+    "beforeConvention": "spare2_",
+    "db": "spare2_str"
+  },
+  {
+    "nom": "CreatedAt",
+    "type": "time.Time",
+    "convention": "_at",
+    "beforeConvention": "created_",
+    "db": "created_at"
+  },
+  {
+    "nom": "UpdatedAt",
+    "type": "time.Time",
+    "convention": "_at",
+    "beforeConvention": "updated_",
+    "db": "updated_at"
+  }
+]

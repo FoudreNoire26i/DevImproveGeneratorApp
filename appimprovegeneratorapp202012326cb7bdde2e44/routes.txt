@@ -1,0 +1,33 @@
+METHOD | PATH                              | ALIASES | NAME              | HANDLER
+------ | ----                              | ------- | ----              | -------
+GET    | /                                 |         | rootPath          | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.HomeHandler
+GET    | /bateauids/                       |         | bateauidsPath     | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.List
+POST   | /bateauids/                       |         | bateauidsPath     | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.Create
+DELETE | /bateauids/{bateauid_id}/         |         | bateauidPath      | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.Destroy
+GET    | /bateauids/{bateauid_id}/         |         | bateauidPath      | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.Show
+PUT    | /bateauids/{bateauid_id}/         |         | bateauidPath      | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.BateauidsResource.Update
+POST   | /chats/                           |         | chatsPath         | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.Create
+GET    | /chats/                           |         | chatsPath         | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.List
+GET    | /chats/{chat_id}/                 |         | chatPath          | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.Show
+PUT    | /chats/{chat_id}/                 |         | chatPath          | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.Update
+DELETE | /chats/{chat_id}/                 |         | chatPath          | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.ChatsResource.Destroy
+GET    | /comments/                        |         | commentsPath      | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.List
+POST   | /comments/                        |         | commentsPath      | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.Create
+DELETE | /comments/{comment_id}/           |         | commentPath       | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.Destroy
+GET    | /comments/{comment_id}/           |         | commentPath       | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.Show
+PUT    | /comments/{comment_id}/           |         | commentPath       | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.CommentsResource.Update
+GET    | /interviews/                      |         | interviewsPath    | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.List
+POST   | /interviews/                      |         | interviewsPath    | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.Create
+GET    | /interviews/{interview_id}/       |         | interviewPath     | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.Show
+PUT    | /interviews/{interview_id}/       |         | interviewPath     | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.Update
+DELETE | /interviews/{interview_id}/       |         | interviewPath     | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.InterviewsResource.Destroy
+POST   | /notifications/                   |         | notificationsPath | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.Create
+GET    | /notifications/                   |         | notificationsPath | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.List
+GET    | /notifications/{notification_id}/ |         | notificationPath  | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.Show
+DELETE | /notifications/{notification_id}/ |         | notificationPath  | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.Destroy
+PUT    | /notifications/{notification_id}/ |         | notificationPath  | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.NotificationsResource.Update
+GET    | /placeportids/                    |         | placeportidsPath  | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.List
+POST   | /placeportids/                    |         | placeportidsPath  | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.Create
+GET    | /placeportids/{placeportid_id}/   |         | placeportidPath   | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.Show
+PUT    | /placeportids/{placeportid_id}/   |         | placeportidPath   | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.Update
+DELETE | /placeportids/{placeportid_id}/   |         | placeportidPath   | generatedApps/appimprovegeneratorapp202012326cb7bdde2e44/actions.PlaceportidsResource.Destroy

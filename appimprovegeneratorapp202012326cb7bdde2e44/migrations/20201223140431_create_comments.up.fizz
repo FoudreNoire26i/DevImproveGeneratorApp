@@ -1,0 +1,12 @@
+create_table("comments") {
+	t.Column("id", "uuid", {primary: true})
+	t.Column("text_str", "string", {null: true})
+	t.Column("user_str", "string", {null: true})
+	t.Column("chatroom_str", "string", {null: true})
+	t.Column("url_str", "string", {null: true})
+	t.Column("id_int", "integer", {null: true})
+	t.Column("date_date", "timestamp", {null: true})
+	t.Column("spare1_str", "string", {null: true})
+	t.Column("spare2_str", "string", {null: true})
+	t.Timestamps()
+}
